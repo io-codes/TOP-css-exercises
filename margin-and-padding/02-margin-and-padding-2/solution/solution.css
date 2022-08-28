@@ -4,13 +4,12 @@ body {
 }
 
 .card {
-  width: 400px;
-  background: #fff;
-  margin: 16px auto;
+  padding: 8px;
 }
 
 .title {
   background: #e3f4ff;
+  margin: auto
 }
 
 .content {
@@ -19,6 +18,7 @@ body {
 
 .button-container {
   background: #e3f4ff;
+  margin: 0 auto;
 }
 
 button {
@@ -34,7 +34,7 @@ which _is_ the best practice.
 
 We separated it out here to make it extra clear what has changed. */
 
-.card {
+/* .card {
   padding: 8px;
 }
 
@@ -59,4 +59,4 @@ button {
   display: block;
   margin: 0 auto;
   padding: 8px 24px;
-}
+} */
